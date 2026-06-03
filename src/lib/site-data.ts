@@ -192,7 +192,7 @@ export const newsCards: NewsCard[] = [
     title: "Presentamos el Informe Sociopolitico Provincial Mayo 2026",
     date: "16 de mayo, 2026",
     summary: "Un analisis integral sobre la situacion social, politica y economica de Jujuy.",
-    image: "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=900&q=80",
+    image: "/images/editorial-cover.svg",
     href: "/investigaciones#informe-sociopolitico",
   },
   {
@@ -200,7 +200,7 @@ export const newsCards: NewsCard[] = [
     title: "Jovenes y participacion: claves para una democracia mas fuerte",
     date: "15 de mayo, 2026",
     summary: "Resultados de nuestra investigacion sobre participacion juvenil en la provincia.",
-    image: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=900&q=80",
+    image: "/images/civic-forum.svg",
     href: "/investigaciones#juventud-participacion",
   },
   {
@@ -208,7 +208,7 @@ export const newsCards: NewsCard[] = [
     title: "Radiografia del empleo en Jujuy: tendencias y desafios",
     date: "14 de mayo, 2026",
     summary: "Datos actualizados sobre empleo, informalidad y salarios en el primer trimestre del ano.",
-    image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=900&q=80",
+    image: "/images/data-grid.svg",
     href: "/investigaciones#radiografia-empleo",
   },
   {
@@ -225,19 +225,19 @@ export const mediaCards: MediaCard[] = [
   {
     id: "encuentros-territoriales",
     title: "Encuentros territoriales en el interior de la provincia",
-    image: "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?auto=format&fit=crop&w=900&q=80",
+    image: "/images/territory-network.svg",
     href: "/actividades#encuentros-territoriales",
   },
   {
     id: "debates-economicos",
     title: "Ciclo de debates sobre desarrollo economico regional",
-    image: "https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=900&q=80",
+    image: "/images/civic-forum.svg",
     href: "/actividades#debates-economicos",
   },
   {
     id: "conectividad-rural",
     title: "Investigacion sobre conectividad digital en zonas rurales",
-    image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80",
+    image: "/images/hero-assembly.svg",
     href: "/encuestas-y-datos#conectividad-rural",
   },
 ];

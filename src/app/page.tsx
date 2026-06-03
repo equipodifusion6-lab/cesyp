@@ -46,8 +46,8 @@ export default function Home() {
         <section className="hero-section">
           <div className="hero-section__backdrop">
             <img
-              src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1800&q=80"
-              alt="Vista territorial amplia de Jujuy y su entorno urbano"
+              src="/images/territory-network.svg"
+              alt="Visual institucional del territorio y sus conexiones"
             />
           </div>
           <div className="hero-section__overlay" />
