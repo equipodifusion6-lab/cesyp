@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, JetBrains_Mono, Merriweather } from "next/font/google";
+import { ScrollToTopButton } from "../components/scroll-to-top";
 import "./globals.css";
 
 const serif = Merriweather({
@@ -33,6 +34,7 @@ export default function RootLayout({
     <html lang="es">
       <body className={`${serif.variable} ${sans.variable} ${mono.variable}`}>
         {children}
+        <ScrollToTopButton />
       </body>
     </html>
   );
